@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360012F32930458B00E2CE3E /* UICustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360012F22930458B00E2CE3E /* UICustomTextField.swift */; };
+		360012F529305B3500E2CE3E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360012F429305B3500E2CE3E /* CheckBox.swift */; };
 		36036F35292C40DB00941F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36036F34292C40DB00941F1A /* AppDelegate.swift */; };
 		36036F37292C40DB00941F1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36036F36292C40DB00941F1A /* SceneDelegate.swift */; };
 		36036F39292C40DB00941F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36036F38292C40DB00941F1A /* ViewController.swift */; };
-		36036F3C292C40DB00941F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36036F3A292C40DB00941F1A /* Main.storyboard */; };
 		36036F3E292C40DD00941F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36036F3D292C40DD00941F1A /* Assets.xcassets */; };
 		36036F41292C40DD00941F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36036F3F292C40DD00941F1A /* LaunchScreen.storyboard */; };
+		36036F4D292C542E00941F1A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36036F4C292C542E00941F1A /* IntroViewController.swift */; };
+		363BDBA829358FFF005D7977 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363BDBA729358FFF005D7977 /* PageViewController.swift */; };
+		36DF7CD8292F038300F56F38 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF7CD7292F038300F56F38 /* CustomButton.swift */; };
+		36DF7CDB292F060700F56F38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF7CDA292F060700F56F38 /* LoginViewController.swift */; };
+		36DF7CDD292F13FF00F56F38 /* UIBannerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF7CDC292F13FF00F56F38 /* UIBannerLogin.swift */; };
+		36DF7CE0292F1C2700F56F38 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF7CDF292F1C2700F56F38 /* ColorExtension.swift */; };
+		36DF7CE2292F1C4700F56F38 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF7CE1292F1C4700F56F38 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360012F22930458B00E2CE3E /* UICustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomTextField.swift; sourceTree = "<group>"; };
+		360012F429305B3500E2CE3E /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		36036F31292C40DB00941F1A /* caixaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caixaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36036F34292C40DB00941F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36036F36292C40DB00941F1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36036F38292C40DB00941F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36036F3B292C40DB00941F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36036F3D292C40DD00941F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36036F40292C40DD00941F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36036F42292C40DD00941F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36036F4C292C542E00941F1A /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		363BDBA729358FFF005D7977 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		36DF7CD7292F038300F56F38 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		36DF7CDA292F060700F56F38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		36DF7CDC292F13FF00F56F38 /* UIBannerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBannerLogin.swift; sourceTree = "<group>"; };
+		36DF7CDF292F1C2700F56F38 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		36DF7CE1292F1C4700F56F38 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,87 @@
 		36036F33292C40DB00941F1A /* caixaApp */ = {
 			isa = PBXGroup;
 			children = (
-				36036F34292C40DB00941F1A /* AppDelegate.swift */,
-				36036F36292C40DB00941F1A /* SceneDelegate.swift */,
+				36036F4A292C53D600941F1A /* Sources */,
+				36036F49292C53BB00941F1A /* Resources */,
+				36036F48292C53A700941F1A /* Aplication */,
 				36036F38292C40DB00941F1A /* ViewController.swift */,
-				36036F3A292C40DB00941F1A /* Main.storyboard */,
-				36036F3D292C40DD00941F1A /* Assets.xcassets */,
-				36036F3F292C40DD00941F1A /* LaunchScreen.storyboard */,
 				36036F42292C40DD00941F1A /* Info.plist */,
 			);
 			path = caixaApp;
+			sourceTree = "<group>";
+		};
+		36036F48292C53A700941F1A /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				36036F3F292C40DD00941F1A /* LaunchScreen.storyboard */,
+				36036F36292C40DB00941F1A /* SceneDelegate.swift */,
+				36036F34292C40DB00941F1A /* AppDelegate.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		36036F49292C53BB00941F1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36036F3D292C40DD00941F1A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		36036F4A292C53D600941F1A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				363BDBA629358D6B005D7977 /* Omboarding */,
+				36DF7CDE292F1C0900F56F38 /* Extensions */,
+				36DF7CD9292F05E400F56F38 /* Login */,
+				36DF7CD6292F036C00F56F38 /* Components */,
+				36036F4B292C540300941F1A /* Intro */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		36036F4B292C540300941F1A /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				36036F4C292C542E00941F1A /* IntroViewController.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		363BDBA629358D6B005D7977 /* Omboarding */ = {
+			isa = PBXGroup;
+			children = (
+				363BDBA729358FFF005D7977 /* PageViewController.swift */,
+			);
+			path = Omboarding;
+			sourceTree = "<group>";
+		};
+		36DF7CD6292F036C00F56F38 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				36DF7CD7292F038300F56F38 /* CustomButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		36DF7CD9292F05E400F56F38 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				36DF7CDA292F060700F56F38 /* LoginViewController.swift */,
+				36DF7CDC292F13FF00F56F38 /* UIBannerLogin.swift */,
+				360012F22930458B00E2CE3E /* UICustomTextField.swift */,
+				360012F429305B3500E2CE3E /* CheckBox.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		36DF7CDE292F1C0900F56F38 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36DF7CDF292F1C2700F56F38 /* ColorExtension.swift */,
+				36DF7CE1292F1C4700F56F38 /* ViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +215,6 @@
 			files = (
 				36036F41292C40DD00941F1A /* LaunchScreen.storyboard in Resources */,
 				36036F3E292C40DD00941F1A /* Assets.xcassets in Resources */,
-				36036F3C292C40DB00941F1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DF7CE2292F1C4700F56F38 /* ViewExtension.swift in Sources */,
+				36DF7CDB292F060700F56F38 /* LoginViewController.swift in Sources */,
 				36036F39292C40DB00941F1A /* ViewController.swift in Sources */,
+				363BDBA829358FFF005D7977 /* PageViewController.swift in Sources */,
+				360012F529305B3500E2CE3E /* CheckBox.swift in Sources */,
 				36036F35292C40DB00941F1A /* AppDelegate.swift in Sources */,
+				360012F32930458B00E2CE3E /* UICustomTextField.swift in Sources */,
+				36DF7CE0292F1C2700F56F38 /* ColorExtension.swift in Sources */,
 				36036F37292C40DB00941F1A /* SceneDelegate.swift in Sources */,
+				36036F4D292C542E00941F1A /* IntroViewController.swift in Sources */,
+				36DF7CD8292F038300F56F38 /* CustomButton.swift in Sources */,
+				36DF7CDD292F13FF00F56F38 /* UIBannerLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		36036F3A292C40DB00941F1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36036F3B292C40DB00941F1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		36036F3F292C40DD00941F1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,13 +373,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = caixaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,13 +400,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = caixaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
